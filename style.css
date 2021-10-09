@@ -1,0 +1,86 @@
+body{ 
+background: #E1B9AF;
+}
+h1, h2{ 
+font-family: 'Roboto Slab', serif;;
+font-size: 25px;
+line-height: 1.2;
+letter-spacing: 2px;
+font-weight: 500;
+color: #FFFFFF;
+background: #E1B9AF;
+text-transform: uppercase;
+text-align: center;
+}
+ul, p { 
+font-family: 'Open Sans', sans-serif;;
+font-size: 14px;
+line-height: 1.2;
+letter-spacing: 1px;
+font-weight: 500;
+text-align: justify-all;
+color: #626262;
+}
+a {
+text-decoration: none;
+color: #626262;
+transition: color 0.3s ease;
+}
+a:hover {
+color: pink;
+text-decoration: underline;
+}
+#profile-picture-shadowed{
+border-radius : 50%;
+border:  5px solid whitesmoke;
+box-shadow : 5px 5px 3px grey;
+width: 200px;
+height: 200px;
+text-align: center;
+align-items: center;
+}
+.img-description {
+border-radius : 2%;
+width: 235px;
+height: 160px;
+float: left;
+margin: 0 30px 30px 0;
+}
+#introduction{
+padding: 30px;
+text-align: center;
+align-items: center;
+}
+.section-pink{
+width: 600px;
+padding: 20px;
+border-radius: 1%;
+background: #FFFFFF;
+margin-top: 15px;
+margin-bottom: 15px;
+margin-right: auto;
+margin-left: auto;
+text-align: justify-all;
+}
+
+#linkedin{
+text-align: center;
+}
+
+#container{
+width: 700;
+margin-right: auto;
+margin-left: auto;
+} 
+
+@media (max-width: 600px) {
+	#container {
+	width: 200;
+	} 
+}
+
+@media (max-width: 1000px) {
+	#container {
+	width: 1200;
+	} 
+}
